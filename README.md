@@ -55,13 +55,13 @@ A dynamic form builder with a user-friendly design.
 
 5. Your Health App Interface
 
-![Form Builder Interface](https://github.com/Akulayagneshwaramurthy/Onepages-1/blob/main/Screenshot%202025-06-21%20145922.png)
+![Form Builder Interface](https://github.com/Akulayagneshwaramurthy/Onepages-1/blob/main/Screenshot%202025-06-21%20145940.png)
 
 A mobile-inspired health app interface with sections for Doctors, Medicine, Tests, and Prescriptions.
 
 6. Abhibus Travel Booking Page
 
-![Form Builder Interface](https://github.com/Akulayagneshwaramurthy/Onepages-1/blob/main/Screenshot%202025-06-21%20145922.png)
+![Form Builder Interface](https://github.com/Akulayagneshwaramurthy/Onepages-1/blob/main/Screenshot%202025-06-21%20150000.png)
 
 A scenic travel booking page for buses, flights, trains, and hotels.
 
