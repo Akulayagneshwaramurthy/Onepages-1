@@ -12,22 +12,22 @@ Dynamic form builder interface.
 
 🖼️ Screenshots
 1. Fashion Store Homepage
-    [Fashion Store Homepage](https://github.com/Akulayagneshwaramurthy/Onepages-1/blob/main/Screenshot%202025-06-21%20145821.png)
+    ![Fashion Store Homepage](https://github.com/Akulayagneshwaramurthy/Onepages-1/blob/main/Screenshot%202025-06-21%20145821.png)
  
 A stylish e-commerce landing page featuring women's and men's collections.
 
 2. Jigar Sable Portfolio 
-[Jigar Sable Portfolio](https://github.com/Akulayagneshwaramurthy/Onepages-1/blob/main/Screenshot%202025-06-21%20145836.png)
+![Jigar Sable Portfolio](https://github.com/Akulayagneshwaramurthy/Onepages-1/blob/main/Screenshot%202025-06-21%20145836.png)
  
 A modern portfolio page highlighting web development skills.
 
 3. JOSH GUI CRUD Generator 
-[JOSH GUI CRUD Generato](https://github.com/Akulayagneshwaramurthy/Onepages-1/blob/main/Screenshot%202025-06-21%20145906.png)
+![JOSH GUI CRUD Generato](https://github.com/Akulayagneshwaramurthy/Onepages-1/blob/main/Screenshot%202025-06-21%20145906.png)
 
 A clean interface for generating CRUD operations using HTML and CSS.
 
 4. Form Builder Interface 
-[Form Builder Interface](https://github.com/Akulayagneshwaramurthy/Onepages-1/blob/main/Screenshot%202025-06-21%20145922.png)
+![Form Builder Interface](https://github.com/Akulayagneshwaramurthy/Onepages-1/blob/main/Screenshot%202025-06-21%20145922.png)
 
 A dynamic form builder with a user-friendly design.
 
