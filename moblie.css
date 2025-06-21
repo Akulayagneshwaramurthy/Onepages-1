@@ -1,0 +1,287 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    gap: 40px;
+}
+.moblie{
+    width: 350px;
+    height: 660px;
+    border-radius: 10px;
+    border:0;
+    margin: 50px 0px 0px 100px;
+    background-color: rgb(246, 246, 247);
+     box-shadow: 0px 7px 20px 7px rgb(233, 233, 233);
+}
+nav{
+    padding: 5px;
+    gap: 35px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: transparent;
+    align-items: center;
+    .signal{
+        background-color: transparent;
+        display: flex;
+        gap: 5px;
+    }
+    .signal i{
+        font-weight: 800;
+        font-size: 15px;
+        background-color: transparent;
+        color: black;
+    }
+    .signal p{
+        font-weight: 600;
+        margin-top: -7px;
+        font-size: 20px;
+        background-color: transparent;
+        color: black;
+    }
+    .time{
+        background-color: transparent;
+        color: black;
+    }
+    b{
+        margin-top: -7px;
+        font-size: large;
+        background-color: transparent;
+        color: black;
+    }
+    .battery{
+        margin-right: -20px;
+        display: flex;
+        gap: 5px;
+        background-color: transparent;
+        color: black;
+    }
+    .battery p{
+        font-weight: 500;
+        margin-top: -7px;
+        background-color: transparent;
+        color: black;
+    }
+    .battery i{
+        font-size: 20px;
+        margin-top: -5px;
+        background-color: transparent;
+        color: black;
+    }
+}
+.man{
+    background-color: transparent;
+    color: rgb(6, 151, 187);
+    padding: 0px;
+    font-size: 25px;
+    i{
+        background-color: transparent;
+        margin-left: 310px;
+    }
+}
+.man2{
+    background-color: transparent;
+    color: rgb(34, 177, 9);
+    padding: 0px;
+    font-size: 25px;
+    i{
+        background-color: transparent;
+        margin-left: 310px;
+    }
+}
+.man3{
+    background-color: transparent;
+    color: rgb(235, 116, 128);
+    padding: 0px;
+    font-size: 25px;
+    i{
+        background-color: transparent;
+        margin-left: 310px;
+    }
+}
+h1{
+    border-bottom: 2px solid rgb(232, 230, 230);
+    padding: 5px 0px 5px 15px;
+    background-color: transparent;
+    color: black;
+}
+.cards{
+    gap: 5px;
+    display: grid;
+    padding: 7px;
+    grid-template-columns: auto auto;
+    background-color: transparent;
+    .card{
+        width: 145px;
+        height: 145px;
+        background-color: rgb(6, 151, 187);
+        border: 0;
+        border-radius: 10px;
+        padding: 10px;
+        color: #fff;
+    }
+    .card2{
+        width: 145px;
+        height: 145px;
+        background-color: rgb(34, 177, 9);
+        border: 0;
+        border-radius: 10px;
+        padding: 10px;
+        color: #fff;
+    }
+    .card3{
+        width: 145px;
+        height: 145px;
+        background-color: rgb(235, 116, 128);
+        border: 0;
+        border-radius: 10px;
+        padding: 10px;
+        color: #fff;
+    }
+    h3{
+        background-color: transparent;
+        font-weight: 400;
+        font-size: 25px;
+        color: #fff;
+    }
+    img{
+        background-color: transparent;
+        margin: 15px 0px 0px 55px;
+        width: 90px;
+        height: 90px;
+    }
+}
+.dateandtime{
+    gap: 10px;
+    margin: 0px;
+    display: flex;
+    padding: 3px 0px 3px 10px;
+    background-color: transparent;
+    .line{
+        height: 60px;
+        width: 4px;
+        border-radius: 5px;
+        background-color: rgb(6, 151, 187);
+    }
+    .line2{
+        height: 60px;
+        width: 4px;
+        border-radius: 5px;
+        background-color: rgb(34, 177, 9);
+    }
+    .line3{
+        height: 60px;
+        width: 4px;
+        border-radius: 5px;
+        background-color: rgb(235, 116, 128);
+    }
+    .date{
+        background-color: transparent;
+        margin: 5px 0px;
+        color: black;
+    }
+    .date h5{
+        text-align: center;
+        justify-content: center;
+        font-size: large;
+        font-weight: 500;
+        background-color: transparent;
+        color: black;
+    }
+    .date p{
+        background-color: transparent;
+        color: rgb(185, 181, 181);
+    }
+    .time{
+        background-color: transparent;
+        margin: 5px 0px;
+        color: black;
+    }
+    .time h5{
+        text-align: center;
+        justify-content: center;
+        font-size: large;
+        font-weight: 700;
+        background-color: transparent;
+        color: black;
+    }
+    .time p{
+        background-color: transparent;
+        color: rgb(185, 181, 181);
+    }
+}
+.navbar{
+    display: flex;
+    padding: 6px;
+    border-radius: 0px 0px 10px 10px;
+    justify-content: space-around;
+    background-color: transparent;
+    border: 2px solid #ececec;
+    .n{
+        color: #aba8a8;
+        background-color: transparent;
+        text-align: center;
+        align-items: center;
+    }
+    .n i{
+        color: #aba8a8;
+        background-color: transparent;
+        font-size: 20px;
+    }
+    .n p{
+        margin-top: 5px;
+        font-size: 13px;
+        font-weight: 500;
+        background-color: transparent;
+    }
+    .n1{
+        color: rgb(2, 124, 154);
+        background-color: transparent;
+        text-align: center;
+        align-items: center;
+    }
+    .n1 i{
+        background-color: transparent;
+        font-size: 20px;
+    }
+    .n1 p{
+        margin-top: 5px;
+        font-size: 13px;
+        font-weight: 500;
+        background-color: transparent;
+    }
+    .n2{
+        color: rgb(28, 167, 3);
+        background-color: transparent;
+        text-align: center;
+        align-items: center;
+    }
+    .n2 i{
+        background-color: transparent;
+        font-size: 20px;
+    }
+    .n2 p{
+        margin-top: 5px;
+        font-size: 13px;
+        font-weight: 500;
+        background-color: transparent;
+    }
+    .n3{
+        color: rgb(208, 117, 126);
+        background-color: transparent;
+        text-align: center;
+        align-items: center;
+    }
+    .n3 i{
+        background-color: transparent;
+        font-size: 20px;
+    }
+    .n3 p{
+        margin-top: 5px;
+        font-size: 13px;
+        font-weight: 500;
+        background-color: transparent;
+    }
+}
