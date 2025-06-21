@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-1{
+    padding: 5px;
+    display: flex;
+    background-color: rgb(75, 75, 75);
+    color: white;
+}
+.head{
+    margin: 0px 100px;
+    display: flex;
+    gap: 30px;
+}
+.head h1{
+    font-weight: 200;
+    font-size: 40px;
+}
+h1 i{
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.meanu i{
+    margin-top: 10px;
+    font-size: 25px;
+    height: 25px;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(1, 1, 45);
+    color: white;
+}
+.user{
+    margin-top: 10px;
+    margin-left: 850px;
+    display: flex;
+    gap: 15px;
+}
+.user sup{
+   background-color: black;
+   margin-left: -20px;
+   margin-top: -5px;
+   text-align: center;
+   justify-content: center;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+}
+.user i{
+    font-size: 30px;
+}
+.user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.user p i{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.navbar-2{
+    display: flex;
+    padding: 10px;
+    border-bottom: 2px solid rgb(207, 206, 206);
+    background-color: rgb(248, 248, 248);
+}
+.heading{
+    font-weight: 100;
+}
+.link{
+    gap: 15px;
+    display: flex;
+    margin-left: 770px;
+}
+.link i{
+    cursor: pointer;
+    margin-top: 5px;
+}
+.container{
+    height: 100vh;
+    padding: 20px;
+    background-color: rgb(248, 248, 248);
+}
+.box{
+    height: 50hv;
+    background-color: white;
+}
+.box .heading{
+    background-color: rgb(112, 107, 250);
+    color: white;
+    padding: 10px;
+}
+.box h3{
+    font-weight:400;
+}
+.inputs{
+    display: flex;
+    margin: 20px;
+}
+.model{
+    display: block;
+}
+label{
+    display: block;
+    font-size: large;
+    font-weight: 500;
+}
+.inputs input{
+    font-size: large;
+    margin: 10px 0px;
+    /* display: block; */
+    border: 2px solid rgb(240, 237, 237);
+    border-radius: 5px;
+    padding: 7px;
+    width: 430px;
+}
+.cr{
+    gap: 20px;
+    display: flex;
+    margin: 10px 0px;
+}
+.ck{
+    display: flex;
+}
+.ck input{
+    border: 2px solid rgb(240, 237, 237);
+    background-color: blue;
+    margin: 0px 10px ;
+    padding: 10px;
+    width: 20px;
+}
+.ck p{
+    font-size: large;
+}
+.comm{
+    margin: 0px 40px;
+}
+.comm input{
+    position: absolute;
+}
+.comm i{
+    position: relative;
+    margin: 20px 0px 20px 420px;
+}
+.name{
+    margin-left: 20px;
+}
+.prefix{
+    display: flex;
+    gap: 25px;
+}
+.pr{
+    display: block;
+}
+.pr input{
+    width: 300px;
+}
+.pri input{
+    width: 90px;
+}
+.primary{
+    margin: 20px;
+}
+.primary p{
+    font-weight: 500;
+    padding: 15px;
+    color: white;
+    background-color: rgb(18, 241, 167);
+}
+.primary p span{
+    padding: 3px;
+    border-radius: 5px;
+    color: orangered;
+    background-color: white;
+}
+table{
+    width: 1430px;
+    margin: 0px 20px;
+    border-collapse: collapse;
+}
+table, th, td{
+    padding: 10px;
+    border: 2px solid rgb(195, 193, 193);
+}
+tr, td{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+td input{
+    border: 2px solid rgb(222, 219, 219);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: large;
+}
+.id input{
+    width: 20px;
+    padding: 10px;
+    border: 2px solid rgb(222, 219, 219);
+}
+td i{
+    font-size: 20px;
+}
+.bum{
+    display: flex;
+}
+.btn-1{
+    margin: 20px;
+}
+.btn-1 button{
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(94, 94, 251);
+}
+.btn{
+    gap: 25px;
+    display: flex;
+    margin: 20px 0px 20px 1180px;
+}
+.btn-2 button{
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(10, 219, 149);
+}
+.btn-3 button{
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid rgb(170, 170, 169);
+    background-color: rgb(233, 231, 231);
+}

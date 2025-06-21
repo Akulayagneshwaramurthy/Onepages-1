@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="josh.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Josh</title>
+</head>
+<body>
+    <nav class="navbar-1">
+        <div class="head">
+            <h1>J<i class="fa-solid fa-circle-user"></i>SH</h1>
+            <div class="meanu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="user">
+            <i class="fa-solid fa-envelope" style="color: rgb(101, 183, 246);"></i><sup style="background-color:greenyellow;">4</sup>
+            <i class="fa-solid fa-bell" style="color: orangered;"></i><sup style="background-color:orange;">7</sup>
+            <img src="man-1.jpg" alt="">
+            <p>John Doe<i class="fa-solid fa-caret-down"></i></p>
+        </div>
+    </nav>
+    <nav class="navbar-2">
+        <div class="heading">
+            <h2 style="font-family: 'Times New Roman', Times, serif;">GUI GRUD Generator</h2>
+        </div>
+        <div class="link">
+            <i class="fa-solid fa-house-chimney"></i>
+            <p>Dashboard</p>
+            <i class="fa-solid fa-angles-right"></i>
+            <p>GUI GRUD Generator</p>
+            <i class="fa-solid fa-angles-right"></i>
+            <P>Generator Builder</P>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="box">
+            <div class="heading">
+                <h3>Laravel Generator Builder</h3>
+            </div>
+            <div class="inputs">
+                <div class="mobel">
+                    <label for="">Mobel Name <span style="color: orangered;">*</span></label>
+                    <input type="text" placeholder="School">
+                    <label>Options</label>
+                    <div class="cr">
+                    <div class="ck">
+                    <input type="checkbox">
+                    <p>Soft Delete</p>
+                    </div>
+                    <div class="ck">
+                    <input type="checkbox">
+                    <p>Datatables</p>
+                    </div>
+                    <div class="ck">
+                    <input type="checkbox">
+                    <p>Migrate</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="comm">
+                    <label for="">Command Type</label>
+                    <input type="text" placeholder="Scaffold Generator">
+                    <i class="fa-solid fa-sort-down"></i>
+                </div>
+                <div class="name">
+                    <label for="">Table Name <b>i</b></label>
+                    <input type="text" placeholder="schools">
+                    <div class="prefix">
+                    <div class="pr">
+                        <label for="">Prefix</label>
+                        <input type="text" placeholder="Enter Prefix">
+                    </div>
+                    <div class="pri">
+                        <label for="">paginate</label>
+                        <input type="text" placeholder="10">
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="primary">
+                <p>The Primary key <span>id</span> and timestamps <span>created_at</span> and <span>updated_at</span> will be created automatically!</p>
+            </div>
+            <table>
+                <tr>
+                    <th>Field Name</th>
+                    <th>DB Type</th>
+                    <th>Validations</th>
+                    <th>Html Types</th>
+                    <th>Primary</th>
+                    <th>Searchable</th>
+                    <th>Fillable</th>
+                    <th>In Form</th>
+                    <th>In Index</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Student">
+                    </td>
+                    <td>
+                        <input type="text"placeholder="STRING" >
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Text">
+                    </td>
+                    <td class="id">
+                        <input type="checkbox">
+                    </td>
+                    <td class="id">
+                        <input type="checkbox">
+                    </td>
+                    <td class="id">
+                        <input type="checkbox">
+                    </td>
+                    <td class="id">
+                        <input type="checkbox">
+                    </td>
+                    <td class="id">
+                        <input type="checkbox">
+                    </td>
+                    <td><i class="fa-solid fa-trash-can" style="color: #d20404;"></i></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Roll">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="INTEGER">
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Text">
+                    </td>
+                    <td class="id">
+                        <input type="checkbox">
+                    </td>
+                    <td class="id">
+                        <input type="checkbox">
+                    </td>
+                    <td class="id">
+                        <input type="checkbox">
+                    </td>
+                    <td class="id">
+                        <input type="checkbox">
+                    </td>
+                    <td class="id">
+                        <input type="checkbox">
+                    </td>
+                    <td><i class="fa-solid fa-trash-can" style="color: #d20404;"></i></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Gender">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="ENUM">
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Radio" style="margin-bottom: 10px;"><br>
+                        <input type="text" placeholder="male_female">
+                    </td>
+                    <td class="id">
+                        <input type="checkbox">
+                    </td>
+                    <td class="id">
+                        <input type="checkbox">
+                    </td>
+                    <td class="id">
+                        <input type="checkbox">
+                    </td>
+                    <td class="id">
+                        <input type="checkbox">
+                    </td>
+                    <td class="id">
+                        <input type="checkbox">
+                    </td>
+                    <td><i class="fa-solid fa-trash-can" style="color: #d20404;"></i></td>
+                </tr>
+            </table>
+            <div class="bum">
+            <div class="btn-1">
+                <button>Add Field</button>
+            </div>
+            <div class="btn">
+                <div class="btn-2">
+                    <button>Generate</button>
+                </div>
+                <div class="btn-3">
+                    <button>Reset</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

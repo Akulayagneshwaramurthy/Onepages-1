@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    color: #fff;
+    background-color: #011b48;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+.icon-heading{
+    display: flex;
+    gap: 10px;
+}
+.icon-heading i{
+    margin-top: 3px;
+    color: #fff;
+   font-size: 25px;
+}
+.icon-heading h3{
+   color: #fff;
+}
+.a{
+ display: flex;
+ gap: 30px;
+}
+.navbar a{
+  text-decoration: none;
+  font-style: bold;
+  font-size: larger;
+  color: #fff;
+}
+.line{
+  width: 50px;
+  height: 2px;
+  margin-left: 1px;
+  margin-top: 5px;
+  background-color: yellow;
+}
+.bg{
+  background-image: url(https://c8.alamy.com/comp/2A17G5F/science-network-pattern-connecting-lines-and-dots-technology-hexagons-structure-or-molecular-connect-elements-2A17G5F.jpg);
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.photo-heading{
+  display: flex;
+  justify-content: space-around;
+}
+.heading {
+  margin-top: 100px;
+}
+.heading h1 {
+    font-size: 70px;
+}
+.heading p {
+    margin: 10px 0px;
+    font-size: 40px;
+}
+.heading button {
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: rgb(2, 2, 96);
+    cursor: pointer;
+    color: #fff;
+    border: 0;
+}
+button i{
+    margin-left: 5px;
+    color: rgb(2, 2, 96);
+    border-radius: 50%;
+}
+.icons{
+ display: flex;
+margin: 15px 0px;
+}
+.icon{
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  margin-top: 7px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.icon i{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+.photo{
+   border-radius: 50%;
+   margin-top: 100px;
+   height: 350px;
+   width: 350px;
+}
+.photo img{
+  background-color: rgb(232, 229, 229);
+   height: 350px;
+   width: 350px;
+   border-radius: 50%;
+}
+.smallphoto{
+  display: flex;
+  border-radius: 50%;
+   margin-top: 50px;
+   margin-left: 50px;
+   height: 80px;
+   width: 80px;
+}
+.smallphoto img{
+  background-color: rgb(95, 122, 232);
+   height: 80px;
+   width: 80px;
+   border-radius: 50%;
+}
+.smallphoto sup{
+ padding: 3px 10px;
+  margin-left: -22px;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(139, 1, 1);
+  font-size: large;
+  font-weight: 400;
+}

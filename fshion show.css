@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.black{
+    color: white;
+    display: flex;
+    padding: 10px;
+    background-color: black;
+    justify-content: space-around;
+}
+.all {
+    display: flex;
+    gap: 15px;
+}
+.all a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    display: flex;
+    padding: 15px;
+    background-color: #fff;
+    justify-content: space-around;
+}
+nav h1{
+    margin-top: 5px;
+}
+.navbar{
+    margin-top: 5px;
+    display: flex;
+    gap: 25px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: large;
+}
+.navbar i{
+    margin-left: 5px;
+}
+.search input{
+    border: 0;
+    background-color: #f5f4f4;
+    position: absolute;
+    font-size: 20px;
+    padding-left: 10px;
+    width: 200px;
+    height: 40px;
+}
+.search i{
+    position: relative;
+    color: #232323;
+    font-size: 20px;
+    margin: 12px 0px 0px 170px;
+}
+.cart{
+    margin-left: -100px;
+    cursor: pointer;
+    padding: 10px 20px;
+    gap: 5px;
+    display: flex;
+    background-color: orangered;
+    color: white;
+}
+.cart i{
+    font-size: 20px;
+}
+.cart p{
+    font-size: 15px;
+}
+.leftandright{
+    padding: 20px;
+    display: flex;
+}
+.left{
+    background-color: rgb(233, 232, 232);
+    display: flex;
+    width: 950px;
+    height: 500px;
+}
+.details{
+    margin: 150px 50px 0px 50px;
+    width: 600px;
+    height: 340px;
+}
+.details h4{
+   color: orangered;
+}
+.details button{
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: orangered;
+    border: 0;
+    padding: 10px 20px;
+    color: white;
+}
+.arrows{
+    display: flex;
+    gap: 10px;
+    margin-top: 120px;
+}
+.arrows i{
+    background-color: orangered;
+    padding: 10px 15px;
+    color: white;
+}
+.top{
+    display: flex;
+    margin: 0px 10px 0px 20px;
+    background-color: rgb(252, 235, 255);
+    width: 520px;
+    height: 240px;
+}
+.top .details{
+   margin: 30px 20px 30px 40px;
+   width: 250px;
+   height: 150px;
+}
+.top img{
+    margin-right: 40px;
+}
+.bottom{
+    display: flex;
+    margin: 20px 10px 0px 20px;
+    background-color: rgb(199, 219, 251);
+    width: 520px;
+    height: 240px;
+}
+.bottom .details{
+   margin: 30px 0px 0px 80px;
+   width: 250px;
+   height: 150px;
+}
+.bottom img{
+    margin-left: 40px;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+.product{
+    background-color: aliceblue;
+    width: 60px;
+    height: 70px;
+    border-radius: 50%;
+}
+.product img{
+    width: 60px;
+    height: 70px;
+    border-radius: 50%;
+}
